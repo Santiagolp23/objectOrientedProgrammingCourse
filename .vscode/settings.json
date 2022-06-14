@@ -5,4 +5,5 @@
     "python.analysis.extraPaths": [
         "./Python"
     ],
+    "java.format.settings.url": "redhat.java",
 }
