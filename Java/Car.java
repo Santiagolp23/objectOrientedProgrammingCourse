@@ -2,7 +2,7 @@ class Car {
     private Integer id;
     private String license;
     private Account driver;
-    private Integer passengersNumber;
+    protected Integer passengersNumber;
 
     public Car(String license, Account driver) {
         this.license = license;

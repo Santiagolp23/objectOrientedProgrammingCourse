@@ -10,6 +10,10 @@ class Main {
         car2.setPassenger(4);
         car2.printCarData();
 
+        UberVan car3 = new UberVan("QMG843", new Account("car3", 987654321));
+        car3.setPassenger(6);
+        car3.printCarData();
+
         Driver Santiago = new Driver("Santiago Lopez", 123456789, "santiago@gmail.com", "aStrongPass123");
         Santiago.printAccountData();
 
