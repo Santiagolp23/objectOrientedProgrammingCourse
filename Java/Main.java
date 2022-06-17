@@ -8,5 +8,11 @@ class Main {
         Car car2 = new Car("QMG843", new Account("Fulanito Detal", 987654321));
         car2.passengersNumber = 3;
         car2.printCarData();
+
+        Driver Santiago = new Driver("Santiago Lopez", 123456789, "santiago@gmail.com", "aStrongPass123");
+        Santiago.printAccountData();
+
+        User fulanito = new User("Fulanito Detal", 987654321, "fulano@gmail.com", "anExtraordinaryPass321");
+        fulanito.printAccountData();
     }
 }
